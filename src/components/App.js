@@ -9,7 +9,6 @@ function App() {
   return (
     <>
       <AppRouter isLoggedIn={isLoggedIn} />
-      <h1>HELLO WORLD!</h1>
       <footer>&copy; {new Date().getFullYear()} Nwitter</footer>
     </>
   );
