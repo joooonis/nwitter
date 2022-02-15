@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import AppRouter from "./Router";
-import { authService } from "../fbase";
+import React, { useState } from 'react';
+import AppRouter from './Router';
+import { authService } from '../fbase';
 
 function App() {
   console.log(authService.currentUser);
@@ -11,11 +11,12 @@ function App() {
       <AppRouter isLoggedIn={isLoggedIn} />
       <h1>HELLO WORLD!</h1>
       <h2>HELLO WORLD!</h2>
+      <h2>HELLO WORLD!</h2>
+
       <button>hello</button>
       <footer>&copy; {new Date().getFullYear()} Nwitter</footer>
     </>
   );
-
 }
 
 export default App;
